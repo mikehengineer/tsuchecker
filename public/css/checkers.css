@@ -1,55 +1,29 @@
-/* BASIC STYLING: */
-
-@import url(https://fonts.googleapis.com/css?family=Tangerine);
-@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Roboto');
-@import url(https://fonts.googleapis.com/css?family=Tajawal);
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body, html {
     height: 100%;
-}
-
-body {
-    background: #e9eaee;
+    background-color: #3C4242;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     min-height: 100%;
     margin: auto;
+    background-color: #fff;
 }
 
 nav {
     margin-left: auto;
-
-}
-
-.nav-item {
-    font-family: sans-serif;
-    font-size: 1.1em;
-    font-weight: 500;
-    color: #708090;
-    padding: 0 0.55em;
-    text-decoration: none;
-    transition: color 500ms;
-}
-
-.nav-item:hover {
-    color: #000;
+    font-size: 1.2em;
 }
 
 #splashouter{
-    background: #fff;
+    background: #042038;
     margin: 2px;
 }
 
-.splash{
-    margin: 7px;
+.splash{;
+    margin: 0px;
     background: #800000;
     filter: contrast(100%)
 }
@@ -69,16 +43,11 @@ nav {
 }
 
 .content{
-    flex-wrap: wrap;
     font-family: arial;
     font-weight: lighter;
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
-    display: flex;
-    flex-direction: row;
-    background: #fff;
-    margin: 3px;
 }
 
 .card{
@@ -86,40 +55,5 @@ nav {
     flex: 0 45%;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
-    padding: 20px;
-    background: #fff;
-}
-
-.card > img {
     width: 100%;
-    height: 100%;
 }
-
-.card > p {
-    margin-top: 20px;
-}
-
-.footer {
-    box-sizing: border-box;
-    background: #708090;
-    display: flex;
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    font-size: 1em;
-    min-height: 7em;
-    padding: 15px;
-}
-
-.footer > p {
-    display: flex;
-    font-family: 'roboto', sans serif;
-    font-weight: 100;
-    color: #fff;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
-
-
